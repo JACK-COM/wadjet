@@ -1,0 +1,16 @@
+[project]
+name = "wadjet"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.115.12",
+    "langchain>=0.3.24",
+    "langchain-anthropic>=0.3.12",
+    "langchain-community>=0.3.22",
+    "langgraph>=0.3.34",
+    "langgraph-checkpoint-sqlite>=2.0.6",
+    "python-dotenv>=1.1.0",
+    "tavily-python>=0.7.0",
+]

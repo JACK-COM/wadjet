@@ -21,8 +21,10 @@ setup: ## | Install dependencies and perform any initial setup actions
 	uv pip install -r pyproject.toml
 
 
+ARGS=
+
 start: ## | Start the (dev or production) server (convenience).
-	uv run dev.py
+	fastapi dev $(ARGS)
 
 
 upgrade: ## | Upgrade ALL project dependencies at once
